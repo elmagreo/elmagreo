@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<title>!!--CAMPO:gbook-nombre--!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
+<!--
+body {
+	background-image: url(http://www.terra.es/personal2/el-magreo/images/Fondo.jpg);
+}
+-->
+</style></head>
+
+<body bgcolor=#ffffff text=#000000 link=#003090 vlink=#003090 alink=#0000ff topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+
+<style>
+A:hover{color:#0000ff}
+</style>
+
+<table border=0 cellspacing=0 cellpadding=5 width=100%>
+  <tr>
+    <td bgcolor=#FF0000>
+        <br>
+        <font size=5 face="Arial" color=#ffffff><b>!!--CAMPO:gbook-nombre--!</b></font>
+    </td>
+    <td align=right valign=bottom bgcolor=#FF0000>
+	<a href="!!--CAMPO:URL--!">
+	  <img src="http://images.melodysoft.com/gb_msgs.gif" alt="Ver firmas" border=0></a>
+	<a href="/cgi-bin/surf.cgi?to=libros/ayuda" target="_blank">
+	  <img src="http://images.melodysoft.com/gb_help.gif" alt="Ayuda" border=0></a>
+	<a href="!!--CAMPO:wwwasoc--!">
+	  <img src="http://images.melodysoft.com/gb_exit.gif" alt="Volver" border=0></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2 valign=bottom height=5 background="http://images.melodysoft.com/bg_blue-white.gif">
+	<table border=0 cellspacing=0 cellpadding=10><tr><td align=left background="">
+	<font face="Verdana" size=2>!!--CAMPO:gbook-descripcion--!</font>
+	</td></tr></table>
+    </td>
+  </tr>
+</table>
+!!--ERROR_AREA--!
+<br>
+!!--BANNER_AREA--!
+<br><br>
+
+<p align=center>
+<center>
+
+%!!MULTIBOX:
+<form method="get" action="!!--CAMPO:APPURL--!">
+<table border=0 width=80% cellspacing=3 cellpadding=3><tr><td align=left bgcolor=#FF0000 valign=top>
+  <table border=0 width=100% cellspacing=0 cellpadding=0><tr><td align=left valign=middle>
+<font face="Verdana" size=1 color=#ffffff><b> &nbsp; &nbsp; !!--CAMPO:CURGBOOKDESC--!</td><td align=right valign=middle>
+<font face="Verdana" size=1 color=#ffffff>
+<b>Acceder a</b>&nbsp; !!--MULTIBOX_AREA--! &nbsp; &nbsp;</font>
+<input type="submit" value="Acceder" style="font-family: Arial; font-size: 8pt">
+&nbsp;
+</td></tr><tr></tr></table></td></tr></table>
+</form>
+!!%
+
+<table width=80% border=0 cellpadding=3 cellspacing=3 bgcolor="#FFFFFF">
+  <tr>
+    <td bgcolor=#FF0000>
+      <font color=#ffffff face="Verdana" size=4><b>Firmar</b></font>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor=#FFFFFF align=center><br>
+      <form method="post" action="!!--CAMPO:APPURL--!">
+      !!--HIDDENDATA_POSTMSG_AREA--!
+      <center>
+      <table border=0 cellspacing=5>
+	<tr>
+	  <td align=right><font face="Verdana" size=2><b>Nombre</b></font></td>
+	  <td><input type=text name="nombre" size=60 maxlength=40 value="!!--CAMPO:mi-nombre--!" style="font-family: Arial; font-size: 8pt"></td>
+	</tr>
+	<tr>
+	  <td align=right><font face="Verdana" size=2><b>E-Mail</b></font></td>
+	  <td><input type=text name="E-Mail" size=60 value="!!--CAMPO:mi-E-Mail--!" style="font-family: Arial; font-size: 8pt"></td>
+        </tr>
+	<tr>
+          <td align=right><font face="Verdana" size=2><b>Web</b></font></td>
+          <td><input type=text name="Link" size=60 value="!!--CAMPO:mi-Link--!" style="font-family: Arial; font-size: 8pt"></td>
+	</tr>
+	<tr>
+          <td></td>
+	  <td align=left><input type=checkbox value="checked" !!--CAMPO:mi-bPrivado--! name="bPrivado">
+	    <font face=Verdana size=1><b>Mensaje Privado</b></font>
+	  </td>
+	</tr>
+      </table>
+      </center>
+
+	<font face="Verdana" size=3><b>Mensaje</b></font>
+	<br>
+	<center>
+	<textarea wrap="virtual" name="mensaje" cols=70 rows=5 style="font-family: Arial; font-size: 8pt">!!--CAMPO:mi-mensaje--!</textarea>
+	<br><br><br>
+	<input type="submit" value="     Enviar     " style="font-family: Arial; font-size: 8pt;">&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="reset" value="     Borrar     " style="font-family: Arial; font-size: 8pt;">
+	<br><br>
+	</center>
+	</form>
+
+    </td>
+  </tr>
+</table>
+</center>
+
+
+
+<br>
+!!--MELODYAD_AREA--!
+<br>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-711488-1";
+urchinTracker();
+</script>
+</body>
+</html>
